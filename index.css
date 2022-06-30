@@ -1,0 +1,199 @@
+/************************************* navbar ************************************/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi{
+    flex-direction: row-reverse;
+}
+.navi ul li a{
+    color: black !important;  
+}
+
+.navi ul li a:hover{
+    color: rgba(0, 0, 0, 0.651) !important;  
+}
+
+#logo{
+    width: 132px;
+    height: 76px;
+}
+#navibar{
+    background-color: #f6f5ee;
+}
+.bg-bg{
+    background-color: #f6f5ee;
+}
+
+/* **********************************home image ************************/
+#Himg{
+    background: url("img1/food.jpg");
+    max-width: 100%;
+    height: auto;
+}
+#Himg h1{
+    margin-top: 6rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #c6f6ed;
+}
+#Himg h5{
+    margin-left: 6rem;
+    color: #c6f6ed;
+}
+#Himg button{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .imges{
+      display: block;
+      margin: auto;
+      }
+}
+#workshop{
+    background-color: #c6f6ed;
+
+}
+
+
+/*!--**************************** sided image**********************************--*/
+.Bradi{
+    border-radius: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* .Bradi div div img{
+    border-radius: 25px;
+    position: absolute;
+    width: 40%;
+    left: 13rem;
+    
+}  */
+.Bradi div div h1{
+    font-size: 3.4rem;
+
+}
+@media only screen and (max-width: 1400px){
+    .Bradi div div h1{
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+    
+    }
+    .Bradi div div button{
+        display: block;
+        margin: auto !important;
+    
+    }
+    .Bradi div div h5{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+}
+
+/*!--**************************** two cards**********************************--*/
+
+.bg-img-1{
+    position: relative;
+}
+.bg-img-2{
+    position: relative;
+}
+.bg-img-1 div{
+    top: 0;
+    position: absolute;
+    font-size: 3.4rem;
+    padding-left: 40px;
+    width: 51%;
+    /* z-index: 20; */
+}
+.bg-img-2 div{
+    top: 0;
+    position: absolute;
+    padding-left: 40px;
+    font-size: 3.4rem;
+    width: 51%;
+}
+.bg-img-1 img{
+    opacity: 0.5;   
+    padding: 0px !important;
+}
+.bg-img-2 img{
+    opacity: 0.5;
+    padding: 0px !important;
+}
+.bg-img-1 h1{
+    padding-top: 26px;
+    
+    padding-bottom: 17px;   
+}
+.bg-img-2 h1{
+    padding-top: 26px;
+  
+    padding-bottom: 17px;
+}
+
+@media only screen and (max-width: 1039px){
+    .bg-img-1 div{
+        width: 90%;
+        padding-left: 5px;
+        
+        /* z-index: 20; */
+    }
+   
+    .bg-img-2 div{
+        padding-left: 5px;
+        width: 90%;
+    }
+}
+
+
+/*!--**************************** Long Footer**********************************--*/
+.bg-foot{
+    background-color: #cde7e4;
+
+}
+.tenimg{
+   width: 100% !important;
+   height: 100%;
+}
+
+
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    max-width: 230px;
+    margin: 20px 20px;
+}
+
+@media only screen and (max-width: 768x){
+    .toggle-img1{
+      display: none;
+    }
+    /* .toggle-img1{
+        display: none;
+      } */
+}
+#line{
+    height: 2px;
+    background-color: #0080004d;
+    margin: 6rem 5rem;
+    margin-bottom: 3rem;
+}
+
+#inp{
+    display: inline-block;
+    width: 72%;
+    padding: 10px;
+}
